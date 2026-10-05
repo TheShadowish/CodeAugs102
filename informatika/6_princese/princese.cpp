@@ -2,6 +2,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <sstream>
 
 using namespace std;
 
@@ -33,17 +34,19 @@ int main()
 void Skaityti(Princas P[], int &n)
 {
     ifstream fd("princai-duom.txt");
-    char vardas[25];
     fd >> n;
     fd.ignore(256, '\n');
+
     for (int i = 0; i < n; i++) {
-        fd.get(vardas, 25);  // nuskaitomi 24 vardo simboliai
-        P[i].vardas = vardas;
-        P[i].vardas.erase(P[i].vardas.find_last_not_of(' ') + 1);  // pašalinami tarpai gale
-        fd >> P[i].pedos >> P[i].coliai;
-        fd.ignore(256, '\n');
+        char eilute[100];
+        fd.getline(eilute, 100);   // skaitoma visa eilutė
+
+        istringstream ss(eilute);
+        ss >> P[i].vardas >> P[i].pedos >> P[i].coliai;
+
         P[i].ugis = P[i].pedos * 12 + P[i].coliai;
     }
+
     fd.close();
 }
 
