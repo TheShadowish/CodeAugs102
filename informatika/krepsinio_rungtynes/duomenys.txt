@@ -1,0 +1,9 @@
+8
+LeBron James 32 9 7
+Stephen Curry 41 6 5
+Nikola Jokic 28 14 15
+Luka Doncic 35 11 9
+Giannis Antetokounmpo 30 5 13
+Jayson Tatum 24 4 8
+Kevin Durant 29 3 6
+Anthony Edwards 33 4 5
