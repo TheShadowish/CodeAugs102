@@ -1,9 +1,5 @@
 // 5. Oro temperatūros matavimai
-#include <iostream>
-#include <fstream>
-#include <iomanip>
-#include <string>
-
+#include <bits/stdc++.h>
 using namespace std;
 
 const int CMax = 12;   // daugiausiai mėnesių
