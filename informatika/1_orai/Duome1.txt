@@ -1,0 +1,7 @@
+6
+Dargana             1 7
+Stiprus lietus      2 10
+Sviecia saule       3 15
+Dulksna             4 12
+Stiprus vejas       5 10
+Stiprus lietus      6 8
