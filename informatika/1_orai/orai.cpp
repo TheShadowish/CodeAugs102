@@ -1,9 +1,5 @@
 // 1. Stebėti orai
-#include <iostream>
-#include <fstream>
-#include <iomanip>
-#include <string>
-
+#include <bits/stdc++.h>
 using namespace std;
 
 const int CMax = 31;  // daugiausiai dienų mėnesyje

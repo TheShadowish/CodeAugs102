@@ -1,9 +1,5 @@
 // 2. Šokių čempionatas
-#include <iostream>
-#include <fstream>
-#include <iomanip>
-#include <string>
-
+#include <bits/stdc++.h>
 using namespace std;
 
 const int CMax = 100;  // daugiausiai porų

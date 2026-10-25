@@ -1,9 +1,5 @@
 // 6. Įnoringiausia princesė
-#include <iostream>
-#include <fstream>
-#include <string>
-#include <sstream>
-
+#include <bits/stdc++.h>
 using namespace std;
 
 const int CMax = 50;  // daugiausiai princų
