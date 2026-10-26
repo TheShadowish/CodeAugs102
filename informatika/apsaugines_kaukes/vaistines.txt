@@ -1,6 +1,0 @@
-5
-Euro_vaistine 100 0.20
-Gintarine 320 0.23
-Norfos 560 0.19
-Vaistu_namai 1000 0.22
-Camelia 5000 0.20

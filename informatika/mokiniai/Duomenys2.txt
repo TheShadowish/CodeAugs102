@@ -1,7 +1,0 @@
-6
-Burokas Jurgis 5a 8 10 10 10 10
-Kazlauskas Vytautas 8a 9 5 10 9 7
-Morkute Rima 7b 9 8 10 10 9
-Petraitis Petras 8c 8 5 9 3 7
-Vilkas Arunas 7a 7 7 10 9 8
-Zemaitis Linas 8c 8 8 9 7 7
